@@ -1,6 +1,5 @@
 const router = require("express").Router();
 
-const { async } = require("regenerator-runtime");
 const student = require("./Schema");
 
 router.get("/students", async (req, res) => {
@@ -12,7 +11,6 @@ router.get("/students", async (req, res) => {
   }
 });
 
-/* 
 router.post("/register", async (req, res) => {
   console.log("debugging");
 
@@ -38,5 +36,5 @@ router.post("/register", async (req, res) => {
     res.status(400).json({ message: err.message });
   }
 });
-*/
+
 module.exports = router;

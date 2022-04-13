@@ -1,8 +1,8 @@
 import ReactDOM from "react-dom";
 import { createRoot } from "react-dom/client";
 import React, { Component } from "react";
-import DisplayTable from "./listing";
-import { getStudents } from "./fetchapi";
+import App from "./listing";
+
 /* 
 function Welcome(props) {
   return <h1>Hello, {props.name}</h1>;
@@ -13,8 +13,8 @@ ReactDOM.render(element, document.getElementById("index"));*/
 
 const container = document.getElementById("index");
 const root = createRoot(container);
-root.render(<DisplayTable />);
-
+root.render(<App />);
+//ReactDOM.render(<App />, document.getElementById("index"));
 /* 
 const App = () => {
   React.useEffect(() => {
@@ -22,5 +22,3 @@ const App = () => {
   }, []);
   return <div></div>;
 };*/
-
-export default App;
