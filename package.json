@@ -30,12 +30,13 @@
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.71.0",
     "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^1.16.5"
+    "webpack-dev-server": "^4.8.1"
   },
   "dependencies": {
     "body-parser": "^1.20.0",
     "concurrently": "^7.1.0",
     "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "mongoose": "^6.2.10",
     "pg": "^8.7.3",

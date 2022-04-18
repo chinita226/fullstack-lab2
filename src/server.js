@@ -46,11 +46,6 @@ app.post("/api/register", async (req, res) => {
   res.send(savedReg);
 });
 
-/* 
-app.get("/api/register", async (req, res) => {
-  await Registration.find().then((result) => res.send(result));
-});
-*/
 app.get("/api/register", async (req, res) => {
   Registration.find()
     .populate("student")
