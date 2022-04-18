@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const URL =
-  "mongodb+srv://chinita226:caonima123@cluster0.qwd0z.mongodb.net/fullstackLab2?retryWrites=true&w=majority";
+  "mongodb+srv://chinita226:caonima123@cluster0.qwd0z.mongodb.net/fullstackLab2New?retryWrites=true&w=majority";
 
 function connectDB() {
   mongoose.connect(
